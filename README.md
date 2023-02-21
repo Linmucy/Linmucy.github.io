@@ -1,2 +1,2 @@
-# Linmucy.github.io
-personal blog creation
+# Linmucy's blog
+A personal blog
