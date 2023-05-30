@@ -1,13 +1,74 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
-    <title>Hexo</title>
-    <link href="http://example.com" />
-    <updated>2023-05-26T09:03:27.792Z</updated>
+    <id>http://linmucy.github.io</id>
+    <title>Linmucy的博客</title>
+    <link href="http://linmucy.github.io" />
+    <updated>2023-05-28T03:27:52.641Z</updated>
     <entry>
-        <id>http://example.com/2023/05/26/hello-world/</id>
+        <id>http://linmucy.github.io/2023/05/28/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+        <title></title>
+        <link rel="alternate" href="http://linmucy.github.io/2023/05/28/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;h1 id=&#34;博客搭建&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#博客搭建&#34;&gt;#&lt;/a&gt; 博客搭建&lt;/h1&gt;
+&lt;h2 id=&#34;环境准备&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#环境准备&#34;&gt;#&lt;/a&gt; 环境准备&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;node&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;框架hexo&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#框架hexo&#34;&gt;#&lt;/a&gt; 框架 (hexo)&lt;/h2&gt;
+&lt;p&gt;1. 安装 node.js（含 node.js 和 npm)&lt;/p&gt;
+&lt;p&gt;查看版本 - 打开 git bash&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;node -v &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;npm -v&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;2. 安装 cnpm 淘宝镜像源&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;npm install -g cnpm --registry=https://registry.npm.taobao.org&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cnpm -v //查看版本信息&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jtB40&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jtB40.md.png&#34; alt=&#34;p9jtB40.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3. 使用 cnpm 安装 hexo&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cnpm install -g hexo-cli&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;4. 验证 hexo 是否安装成功&lt;a href=&#34;https://imgse.com/i/p9jt6vF&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt6vF.md.png&#34; alt=&#34;p9jt6vF.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo -v&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;5. 开始生成&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;实验出错，修改方法：输入&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cnpm install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这时会出现 node_modules 文件夹&lt;a href=&#34;https://imgse.com/i/p9jt2DJ&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt2DJ.md.png&#34; alt=&#34;p9jt2DJ.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;6. 接下来就可以启动 hexo 了&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo s&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jtygU&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jtygU.md.png&#34; alt=&#34;p9jtygU.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;7. 下载 git 部署插件（在本目录下）&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cnpm install --save hexo-deployer-git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jt6vF&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt6vF.md.png&#34; alt=&#34;p9jt6vF.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;8. 打开_config.yml 文件，修改配置（也可以用记事本打开修改，但尽量不用）&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;vim _config.yml&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;拉到文件底部&lt;a href=&#34;https://imgse.com/i/p9jt0Nq&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt0Nq.md.png&#34; alt=&#34;p9jt0Nq.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jtwEn&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jtwEn.png&#34; alt=&#34;p9jtwEn.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本人 copy 的是 ssh 地址（上图为视频参考）&lt;/p&gt;
+&lt;p&gt;！现在 GitHub 上是 main（master 改为 main）&lt;/p&gt;
+&lt;p&gt;！！！打完后先按 esc 再输入 &amp;quot;:wq&amp;quot; 回车退出&lt;/p&gt;
+&lt;p&gt;9. 部署到远端 (上一步用了 ssh 地址就不需要输账号密码了，反之需要)&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jtrCV&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jtrCV.md.png&#34; alt=&#34;p9jtrCV.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;此时仓库里就会有新文件出现，这就算是部署好啦！&lt;a href=&#34;https://imgse.com/i/p9jts3T&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jts3T.md.png&#34; alt=&#34;p9jts3T.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;更换主题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#更换主题&#34;&gt;#&lt;/a&gt; 更换主题&lt;/h2&gt;
+&lt;p&gt;1. 在网上挑选主题，复制仓库链接，在本博客目录下 gitbash&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git &lt;span class=&#34;built_in&#34;&gt;clone&lt;/span&gt; 链接 themes/自命名（在此目录下克隆）&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;2. 配置到自己的博客里（修改 config 文件）&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;theme： 自命名&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;3. 接着&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo clean //清屏&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo g     //重新生成&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo s     //启动&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;hexo d     //推到远端(才能在自己的网站上更新)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;注意&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#注意&#34;&gt;#&lt;/a&gt; 注意&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;vim 编辑器命令&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jtRb9&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jtRb9.md.png&#34; alt=&#34;p9jtRb9.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;参考资料：【手把手教你从 0 开始搭建自己的个人博客 | 无坑版视频教程 | hexo】 &lt;a href=&#34;https://www.bilibili.com/video/BV1Yb411a7ty/?share_source=copy_web&amp;amp;vd_source=c804fe465f647ab9b6f190f3af16bcbb&#34;&gt;https://www.bilibili.com/video/BV1Yb411a7ty/?share_source=copy_web&amp;amp;vd_source=c804fe465f647ab9b6f190f3af16bcbb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <updated>2023-05-28T03:27:52.641Z</updated>
+    </entry>
+    <entry>
+        <id>http://linmucy.github.io/2023/05/26/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://example.com/2023/05/26/hello-world/"/>
+        <link rel="alternate" href="http://linmucy.github.io/2023/05/26/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
