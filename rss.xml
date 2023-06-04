@@ -27,13 +27,15 @@
 &lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jtB40&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jtB40.md.png&#34; alt=&#34;p9jtB40.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;3. 使用 cnpm 安装 hexo&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cnpm install -g hexo-cli&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;4. 验证 hexo 是否安装成功&lt;a href=&#34;https://imgse.com/i/p9jt6vF&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt6vF.md.png&#34; alt=&#34;p9jt6vF.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4. 验证 hexo 是否安装成功&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt6vF.md.png&#34; alt=&#34;p9jt6vF.md.png&#34;&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo -v&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;5. 开始生成&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;实验出错，修改方法：输入&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cnpm install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;这时会出现 node_modules 文件夹&lt;a href=&#34;https://imgse.com/i/p9jt2DJ&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt2DJ.md.png&#34; alt=&#34;p9jt2DJ.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这时会出现 node_modules 文件夹&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jt2DJ&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt2DJ.md.png&#34; alt=&#34;p9jt2DJ.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;6. 接下来就可以启动 hexo 了&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;hexo s&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jtygU&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jtygU.md.png&#34; alt=&#34;p9jtygU.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -42,7 +44,8 @@
 &lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jt6vF&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt6vF.md.png&#34; alt=&#34;p9jt6vF.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;8. 打开_config.yml 文件，修改配置（也可以用记事本打开修改，但尽量不用）&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;vim _config.yml&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;拉到文件底部&lt;a href=&#34;https://imgse.com/i/p9jt0Nq&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt0Nq.md.png&#34; alt=&#34;p9jt0Nq.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;拉到文件底部&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jt0Nq&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jt0Nq.md.png&#34; alt=&#34;p9jt0Nq.md.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://imgse.com/i/p9jtwEn&#34;&gt;&lt;img src=&#34;https://s1.ax1x.com/2023/05/30/p9jtwEn.png&#34; alt=&#34;p9jtwEn.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;本人 copy 的是 ssh 地址（上图为视频参考）&lt;/p&gt;
 &lt;p&gt;！现在 GitHub 上是 main（master 改为 main）&lt;/p&gt;
